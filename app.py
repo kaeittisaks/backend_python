@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request, jsonify, send_file
 import mysql.connector
+from flask import Flask, render_template, request, jsonify, send_file
 from docxtpl import DocxTemplate
 from datetime import date
 from flask_cors import CORS
